@@ -1,0 +1,176 @@
+@media screen and (max-width: 800px) {
+  .desktopnav {
+      position:relative;
+      width: 100vw;
+      padding: 5vw 2vw;
+    }
+  .desktopnav ul{
+    display: none;    
+  }
+  .desktopnav .img{
+    width:10vw;
+  }
+  .desktopnav p {
+      font-size: 5vw;
+      font-weight: 500;
+  }
+  .desktopnav .mobileonly{
+    display: block;
+    
+  }
+  .desktopnav .menuicon{
+    margin-right:7vw;
+    font-size: 7vw;
+    
+  }
+  header {
+       padding: 5vh 5vw 8vh 5vw;
+       height: fit-content;
+       width: auto;
+       text-align: left;
+     }
+     .about{
+      padding: 5vh 5vw 8vh 5vw;
+      height: fit-content;
+      width: auto;
+      text-align: left;
+
+     }
+  
+     .maintitle {
+       font-size: 20vw;
+       font-weight: 700;
+       line-height: 15vw;
+       margin: 5vw 0;
+  
+  
+     }
+  
+     .bio {
+       width: 90vw;
+       font-size: 3vw;
+       letter-spacing: 0px;
+       line-height: 4vh;
+       font-weight: 300;
+       margin-bottom: 3vh;
+  
+     }
+  
+     header .title {
+       font-size: 3vw;
+     }
+  
+     .aboutlink {
+       font-size: 3vw;
+       color: white;
+       margin-top: 2vh;
+       letter-spacing: 2px;
+  
+     }
+  
+     .projectdisplay {
+       margin-top: 5vh;
+       grid-template-columns: repeat(1, 1fr);
+  
+  
+     }
+  
+     .worksection h2 {
+       font-size: 15vw;
+       letter-spacing: 0px;
+     }
+  
+     .project h3 {
+       font-size: 6vw;
+  
+     }
+  
+     .project p {
+       font-size: 2vw;
+       font-weight: 500;
+     }
+  
+     footer {
+       background-color: #24272F;
+       padding: 10vh 0vw 7vh 0vw;
+       color: white;
+  
+     }
+        .footernote {
+          font-size: 1.3vw;
+          font-weight: 500;
+          letter-spacing: 1px;
+          margin-top: 5vw;
+    
+        }
+  
+     footer .maincontainer {
+       display: flex;
+       flex-direction: column-reverse;
+       text-align: center;
+       justify-content: space-between;
+       list-style-type: none;
+       align-items: center;
+     }
+  
+     .maincontainer li a {
+       font-size: 4vw;
+       font-weight: 500;
+  
+     }
+  
+     footer .maincontainer .linkslist {
+       display: flex;
+       flex-direction: column;
+       margin-bottom: 4vh;
+  
+     }
+  
+     .linkslist li {
+       margin-left: 0vw;
+       margin-top: 2vh;
+  
+  
+     }
+  
+     .linkslist li a {
+       font-size: 4vw;
+     }
+    .contact {
+      display: block;
+      
+    }
+    .directcontact a {      
+      font-size: 8vw;
+      font-weight: 700;
+      margin-top: 0.5vh;
+  
+    }
+    .social{
+      margin-top: 15vw;
+    }
+    .social ul li {
+      font-size: 8vw;
+      margin-right: 3vh;
+    }
+    .mobilenav{
+      background-color: #24272F;
+      padding:13vh 10vw 13vh 5vw;
+      text-align: right;
+      font-size: 10vw;
+    }
+    .mobilenav ul{
+      list-style-type: none;
+    }
+    .mobilenav ul li{
+      margin-bottom: 8vh;
+      font-weight: 800;
+    }
+    .mobilenav ul li .link{
+      text-decoration: none;
+      color:white;
+      
+      
+    }
+}
+    
