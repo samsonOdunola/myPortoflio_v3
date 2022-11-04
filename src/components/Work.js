@@ -46,7 +46,7 @@ const Work = () => {
         <a
           className="project"
           target="_"
-          href="https://samson-weather-app.netlify.app"
+          href="https://samson-chatroom-app.herokuapp.com"
         >
           <img src={require("../image/chat app.jpg")} alt="weather app" />
           <h3>Chat room</h3>
