@@ -4,14 +4,10 @@ const Work = () => {
       <p className="title">selected</p>
       <h2>Projects</h2>
       <div className="projectdisplay">
-        <a
-          className="project"
-          target="_"
-          href="https://loftbankapp.cyclic.app"
-        >
+        <a className="project" target="_" href="https://loftbankapp.cyclic.app">
           <img
-            src={require("../image/Loft bank.jpg")}
-            alt="loftbank landin page"
+            src={require("../image/cover image.jpg")}
+            alt="loftbank landing page"
           />
           <h3>Loft Bank</h3>
           <p>React-fintech app design</p>
