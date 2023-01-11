@@ -7,7 +7,7 @@ const Work = () => {
         <a
           className="project"
           target="_"
-          href="https://loftbank-app.herokuapp.com/"
+          href="https://loftbankapp.cyclic.app"
         >
           <img
             src={require("../image/Loft bank.jpg")}
